@@ -10,8 +10,9 @@ for val in my_list:
 for idx, val in enumerate(my_list,1):
     print(idx, val)
 
-
+#값확인이 안되서 리스트로 싸줌
 print (range(10))
+
 print(list(range(10)))
 for val in range(1, 10, 2):
     print(val)

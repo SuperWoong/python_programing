@@ -59,6 +59,7 @@ def swap(a,b):
 n1, n2 = swap(10, 20)
 print(n1, n2)
 
+#문자열 타입 list 선언
 cat_list = list('cat')
 print(cat_list)
 
@@ -72,6 +73,32 @@ print('1982' not in birth_list)
 if '1982' not in birth_list:
      print('not found')
 
+
+my_str = 'hello world python'
+print(my_str.count('o'))
+
+print(len(my_str))
+
+print(my_str.find('w'))
+
+
+str_list = ['java', 'python', 'scarlar']
+result = " ".join(str_list)
+print(result)
+print(result.upper())
+print(result.lower())
+print(result.title())
+
+print(result[0:5])
+
+str_list = ['java', 'python', 'scarlar']
+print("".join(str_list))
+
+
+print('------')
+
+my_str = "hello" * 4
+print(my_str)
 
 
 """
